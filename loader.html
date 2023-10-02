@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HydroVision</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="loader.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="hydrovision.png" alt="hydrovision" class="hydrovision" />
+        <div class="title">
+          <span class="title_span">HydroVision: </span>Social Media-Powered
+          Water Crisis Management
+        </div>
+        <div class="profile">
+          <div class="image_profile">
+            <img src="admin.png" alt="" class="profile_img" />
+          </div>
+          <button class="LoginRegister">Login/Register</button>
+        </div>
+      </header>
+      <div class="body">
+        <div class="header-1">
+          <a href="#" class="logo_name">HydroVision</a>
+          <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Query">Query</a>
+            <a href="#Contact">Contact</a>
+          </nav>
+          <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="notification-btn" class="fas fa-bell"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+          </div>
+        </div>
+        <div class="section-1">
+          <section class="section" id="Home">
+            <div class="left">
+              <h2 class="home_header">
+                Welcome To <br /><span>HydroVision</span>
+              </h2>
+              <div class="home_description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consectetur ad vitae voluptatum impedit. Ut fugiat id, libero
+                  voluptatum dolor aut consequatur fugit adipisci iusto
+                  inventore repudiandae ullam sapiente accusamus sint
+                  consectetur at numquam culpa perferendis eum! Laboriosam
+                  provident nam numquam?
+                </p>
+              </div>
+              <a href="#" class="learnmore">Learn more</a>
+            </div>
+            <div class="right">
+              <video
+                src="Videos/video1.mp4"
+                class="home_video active"
+                autoplay
+                muted
+                loop
+              ></video>
+              <video
+                src="Videos/video2.mp4"
+                class="home_video"
+                autoplay
+                muted
+                loop
+              ></video>
+              <video
+                src="Videos/video3.mp4"
+                class="home_video"
+                autoplay
+                muted
+                loop
+              ></video>
+              <video
+                src="Videos/video4.mp4"
+                class="home_video"
+                autoplay
+                muted
+                loop
+              ></video>
+              <video
+                src="Videos/video5.mp4"
+                class="home_video"
+                autoplay
+                muted
+                loop
+              ></video>
+              <div class="slider-navigation">
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="About">About Section</section>
+          <section class="section" id="Query">Query Section</section>
+          <section class="section" id="Contact">
+            <div class="contactUs">
+              <div class="contact_title">
+                <h2 class="contact_h2">Get in Touch</h2>
+              </div>
+
+              <div class="wrapper">
+                <header class="contact_header">Send us a message</header>
+                <form method="POST" action="">
+                  <div class="contact_field">
+                    <div class="field">
+                      <input
+                        type="text"
+                        name="fname"
+                        placeholder="First name"
+                      />
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div class="field">
+                      <input type="text" name="lname" placeholder="Last name" />
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                  <div class="contact_field">
+                    <div class="field">
+                      <input type="text" name="email" placeholder="Email" />
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="field">
+                      <input
+                        type="number"
+                        name="number"
+                        placeholder="Mobile number"
+                      />
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <textarea placeholder="Message" name="message"></textarea>
+                    <i class="material-icons">message</i>
+                  </div>
+                  <div class="button-area">
+                    <button type="submit" name="">Send Message</button>
+                    <span class="message_send">Sending your message</span>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer_body">
+          <div class="footer_description">
+            &copy; copyright @ 2023 by
+            <span class="footer_name">HydroVision </span>| All rights reserved
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="loader.js"></script>
+  </body>
+</html>
